@@ -14,7 +14,7 @@ class Work extends Component {
         }
 
         render() {
-            console.log(this.state.works, "**");
+            // console.log(this.state.works, "**");
 
             const {works} =this.state;
             const worksList = works.map((workItem) => {

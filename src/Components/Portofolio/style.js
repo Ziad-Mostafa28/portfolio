@@ -1,21 +1,21 @@
 import styled from 'styled-components'
 
-export const PortfolioSection =styled.div `
+export const PortfolioSection = styled.div`
     background-color: #f8f8f8;
     padding-top: 20px; 
     overflow: hidden;
 `
-export const Portfoliotitle =styled.h2 `
+export const Portfoliotitle = styled.h2`
     text-align: center;
     font-size: 35px;
     margin-top: 0;
     `
 
-export const Span =styled.span`
+export const Span = styled.span`
 font-weight: normal
 `
 
-export const PortfolioList=styled.ul`
+export const PortfolioList = styled.ul`
 list-style: none;
 text-align: center;
 margin: 0 0 20px 0;
@@ -30,7 +30,7 @@ display: inline-block;
 
 `
 
-export const ImageWrapper = styled.div `
+export const ImageWrapper = styled.div`
     width: 25%;
     float: left;
     font-size: 0;
@@ -40,11 +40,11 @@ export const ImageWrapper = styled.div `
     opacity : 1
     }
 `
-export const Image=styled.img`
+export const Image = styled.img`
 width: 100%
 `
 
-export const Overlay =styled.div`
+export const Overlay = styled.div`
 position: absolute;
 top: 0;
 left: 0;
@@ -52,10 +52,11 @@ bottom: 0;
 right: 0;
 background: rgba(235,84,36 , 0.5);
 font-size: 15px;
-opacity: 0
+opacity: 0;
+transition: 0.3s;
 `
 
-export const OverlaySpan =styled.span`
+export const OverlaySpan = styled.span`
 position: absolute;
 top: 50%;
 left: 50%;
