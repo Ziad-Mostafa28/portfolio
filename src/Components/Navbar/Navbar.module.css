@@ -1,0 +1,43 @@
+
+.navbar {
+    padding:0;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #000
+}
+
+.logo {
+    width: 50%;
+    float: left;
+}
+
+.logostext{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+
+.ullistss {
+    width: 50%;
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.listitem {
+    display: inline-block;
+}
+
+.a {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.a:hover {
+    color: #eb5424
+}

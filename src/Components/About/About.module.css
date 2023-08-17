@@ -1,0 +1,39 @@
+
+.creative {
+    height: 500px;
+    background: url('../../../public/images/creative/about-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+}
+
+.creative_info {
+    padding-top: 100px;
+    width: 50%;
+    float: right;
+}
+
+.info_title {
+    font-weight: bold;
+    font-size: 50px
+}
+
+.info_title_span {
+    font-weight: normal
+}
+
+.info_dir {
+    font-size: 40px;
+    color: #eb5424;
+    margin-bottom: 20px
+}
+
+.info_desc {
+    color: #000;
+    margin-bottom: 15px;
+    line-height: 1.8
+}
+
+.info_desc_a {
+    text-decoration: none
+}

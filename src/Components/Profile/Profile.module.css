@@ -1,0 +1,95 @@
+.profile_skills {
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.profile {
+    width: 50%;
+    float: left;
+}
+
+.profile_list {
+    list-style: none
+}
+
+.profile_item {
+    margin-bottom: 8px
+}
+
+.span{
+    display: inline-block;
+    width: 100px;
+    font-weight: bold
+}
+
+.web {
+    font-weight: normal;
+    color: #eb5424
+}
+
+.skills {
+    width: 50%;
+    float: left;
+}
+
+.skills_desc {
+    font-size: 15px;
+    color: #888;
+    line-height: 1.5;
+    margin-bottom: 20px
+}
+
+.bar {
+    overflow: hidden;
+    padding: 10px 0;
+    margin-bottom: 10px
+}
+
+.title {
+    float: left;
+}
+
+.perc {
+    float: right;
+    margin-right: 100px
+}
+
+.parent {
+    height: 2px;
+    clear: both;
+    background: #f8f8f8;
+    position: relative;
+    top: 5px
+}
+
+.parent_span {
+    background: #eb5424;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0
+}
+
+.sp1 {
+    width: 100%;
+}
+
+.sp2 {
+    width: 90%;
+}
+
+.sp3 {
+    width: 80%;
+}
+
+.profile_title,
+.skills_title{
+    font-size: 40px; 
+    margin-bottom: 20px
+}
+
+.profile_title_span,
+.skills_title_span{
+    font-weight: normal;
+}
