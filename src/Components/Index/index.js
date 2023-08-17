@@ -6,6 +6,7 @@ import Profile from '../Profile'
 import SocialMedia from '../SocialMedia'
 import Work from '../Work'
 import Footer from '../Footer'
+import Contact from '../Contact';
 
 class Index extends Component {
     render() {
@@ -17,6 +18,7 @@ class Index extends Component {
         <Profile/>
         <About/>
         <SocialMedia/>
+        <Contact/>
         <Footer/>
         </div>
         );
